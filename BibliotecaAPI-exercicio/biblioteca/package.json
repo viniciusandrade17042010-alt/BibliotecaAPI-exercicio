@@ -1,0 +1,22 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "exercicio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node sever.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Vinicius Andrade",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
